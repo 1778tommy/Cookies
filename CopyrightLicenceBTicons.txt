@@ -37,4 +37,4 @@ BT shall have no obligation to support or maintain the BT Icons.
 BT does not exclude or limit its liability for death or personal injury caused by its own negligence.
 This licence shall be construed and governed by English law.  If any part of this licence is found void or unenforceable, the balance of the licence shall remain valid and enforceable according to its terms.
 *BT is a trade mark of British Telecommunications public limited company
-
+.
