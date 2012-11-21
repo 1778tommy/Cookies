@@ -1183,7 +1183,7 @@ btCookies = function () {
 		} else {	
 			jq_popup.attr('aria-hidden', 'false');
 
-			cookieNotifTimer();
+			//cookieNotifTimer();
 		}
 		//If the change settings button is selected on the notification, this launches the lightbox
 		jQuery('#cookieNotification .changeNow').bind('click', function(e){
@@ -1402,7 +1402,8 @@ btCookies = function () {
 	//Creathe the notification popup, and append it to the body
 	function addNotification() {
 		var notifHtml = "<div id=\"cookieNotification\" aria-role=\"alert\" aria-live=\"assertive\" aria-hidden=\"true\" aria-describedby=\"cookieNotification_message\">" +
-			"<p id=\"cookieNotification_message\">The cookie settings on this website are set to 'allow all cookies' to give you the very best experience. If you continue without changing these settings, you consent to this - but if you want, you can change your settings at any time at the bottom of this page.</p>" +
+			//"<p id=\"cookieNotification_message\">The cookie settings on this website are set to 'allow all cookies' to give you the very best experience. If you continue without changing these settings, you consent to this - but if you want, you can change your settings at any time at the bottom of this page.</p>" +
+			"<p id=\"cookieNotification_message\">The cookies settings on this website are set to 'allow all'. Use the settings to change your preferences.</p>" +
 			"<div id=\"cookieActions\"><a class=\"cookieButton changeNow\" href=\"#\" aria-controls=\"yourCookieSettings\">Change settings</a><a class=\"cookieButton lastButton\" href=\"#\" aria-controls=\"cookieNotification\">No, thanks</a></div>" +
 			"<p><a class=\"arrow\" href=\"#\" rel=\"cookiePopup\">Find out more about Cookies</a></p></div>";
 		

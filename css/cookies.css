@@ -444,33 +444,40 @@ html>body #yourCookieSettings #close {
 	color: #005293;
 }
 
+
+
+
+
 /**
 * Popup notification
 **/
 
 #cookieNotification {
-	padding:20px 20px 0;
-	border:1px solid #a2acb1;
+	padding: 15px 15px 0 15px;
+	border: 1px solid #a2acb1;
 	background: url('../images/css/cookie_notification_bg.jpg') repeat-x top left #dae9ed;
 	position: fixed;
-	bottom:40px;
-	right:20px;
-	z-index:999;
-	border-radius:5px;
+	bottom: -7px;
+	left: 0;
+	right: 0;
+	z-index: 999;
+	margin: 0 auto;
+	border-radius: 5px;
 	-webkit-box-shadow: 1px 0px 15px rgba(0,0,0,0.2);
 	-moz-box-shadow: 1px 0px 15px rgba(0,0,0,0.2);
 	box-shadow: 1px 0px 15px rgba(0,0,0,0.2);
-	width:320px;
+	width: 80%;
+	max-width: 960px;
 	display: block;
 }
 #cookieNotification p {
-	text-align: center;
+	text-align: left;
 	line-height: 1.462em;
 	font-family: Tahoma, Arial, Verdana;
 	font-size: 13px;
 	color: #666;
-	margin: 0 0 1em;
-	padding:0 20px 10px;
+	margin: 0 0 0.5em;
+	float: left;
 	clear: left;
 }
 #cookieNotification p a:hover {
@@ -479,7 +486,7 @@ html>body #yourCookieSettings #close {
 #cookieNotification .cookieButton,
 #cookieFooter .cookieButton {
 	border: 1px solid #d9d9d9;
-	margin: 10px 0 0 0;
+	margin: 0 0 10px 0;
 	padding: 4px 20px;
 	
 	width: auto;
@@ -527,13 +534,18 @@ html>body #yourCookieSettings #close {
 	font-weight: normal;
 }
 #cookieActions {
-	float: left;
-	margin: 0 0 1em 40px;
-	text-align:center;
+	width: 140px;
+	float: right;
+	margin: 0 0 10px 20px;
+	text-align: center;
 }
 .cookieContainer input {
 	display: none;
 }
+
+
+
+
 
 /**
 * Overlay
@@ -613,18 +625,16 @@ iframe#cookieOverlayIE6Fix,
 	_padding-top:0;
 }
 html>body #cookieNotification .cookieButton {
-	*float: left;
+	*float: right;
 }
 html>body #cookieNotification p a.arrow {
 	*float: left;
-	*margin-left: 30px;
 }
 * #cookieNotification .cookieButton {
-	float: left;
+	float: right;
 }
 * #cookieNotification p a.arrow {
 	float: left;
-	margin-left: 30px;
 }
 div.subNote {
     clear: both;
